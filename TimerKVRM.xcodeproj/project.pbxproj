@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DC70F2EC2E524B64008862D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC70F2D52E524B63008862D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC70F2DC2E524B63008862D7;
+			remoteInfo = TimerKVRM;
+		};
+		DC70F2F62E524B64008862D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC70F2D52E524B63008862D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC70F2DC2E524B63008862D7;
+			remoteInfo = TimerKVRM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC70F2DD2E524B63008862D7 /* TimerKVRM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerKVRM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC70F2EB2E524B64008862D7 /* TimerKVRMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerKVRMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC70F2F52E524B64008862D7 /* TimerKVRMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerKVRMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DC70F2DF2E524B63008862D7 /* TimerKVRM */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TimerKVRM;
+			sourceTree = "<group>";
+		};
+		DC70F2EE2E524B64008862D7 /* TimerKVRMTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TimerKVRMTests;
+			sourceTree = "<group>";
+		};
+		DC70F2F82E524B64008862D7 /* TimerKVRMUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TimerKVRMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC70F2DA2E524B63008862D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC70F2E82E524B64008862D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC70F2F22E524B64008862D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC70F2D42E524B63008862D7 = {
+			isa = PBXGroup;
+			children = (
+				DC70F2DF2E524B63008862D7 /* TimerKVRM */,
+				DC70F2EE2E524B64008862D7 /* TimerKVRMTests */,
+				DC70F2F82E524B64008862D7 /* TimerKVRMUITests */,
+				DC70F2DE2E524B63008862D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC70F2DE2E524B63008862D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC70F2DD2E524B63008862D7 /* TimerKVRM.app */,
+				DC70F2EB2E524B64008862D7 /* TimerKVRMTests.xctest */,
+				DC70F2F52E524B64008862D7 /* TimerKVRMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC70F2DC2E524B63008862D7 /* TimerKVRM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC70F2FF2E524B64008862D7 /* Build configuration list for PBXNativeTarget "TimerKVRM" */;
+			buildPhases = (
+				DC70F2D92E524B63008862D7 /* Sources */,
+				DC70F2DA2E524B63008862D7 /* Frameworks */,
+				DC70F2DB2E524B63008862D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DC70F2DF2E524B63008862D7 /* TimerKVRM */,
+			);
+			name = TimerKVRM;
+			packageProductDependencies = (
+			);
+			productName = TimerKVRM;
+			productReference = DC70F2DD2E524B63008862D7 /* TimerKVRM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC70F2EA2E524B64008862D7 /* TimerKVRMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC70F3022E524B64008862D7 /* Build configuration list for PBXNativeTarget "TimerKVRMTests" */;
+			buildPhases = (
+				DC70F2E72E524B64008862D7 /* Sources */,
+				DC70F2E82E524B64008862D7 /* Frameworks */,
+				DC70F2E92E524B64008862D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC70F2ED2E524B64008862D7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DC70F2EE2E524B64008862D7 /* TimerKVRMTests */,
+			);
+			name = TimerKVRMTests;
+			packageProductDependencies = (
+			);
+			productName = TimerKVRMTests;
+			productReference = DC70F2EB2E524B64008862D7 /* TimerKVRMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC70F2F42E524B64008862D7 /* TimerKVRMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC70F3052E524B64008862D7 /* Build configuration list for PBXNativeTarget "TimerKVRMUITests" */;
+			buildPhases = (
+				DC70F2F12E524B64008862D7 /* Sources */,
+				DC70F2F22E524B64008862D7 /* Frameworks */,
+				DC70F2F32E524B64008862D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC70F2F72E524B64008862D7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DC70F2F82E524B64008862D7 /* TimerKVRMUITests */,
+			);
+			name = TimerKVRMUITests;
+			packageProductDependencies = (
+			);
+			productName = TimerKVRMUITests;
+			productReference = DC70F2F52E524B64008862D7 /* TimerKVRMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC70F2D52E524B63008862D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					DC70F2DC2E524B63008862D7 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					DC70F2EA2E524B64008862D7 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DC70F2DC2E524B63008862D7;
+					};
+					DC70F2F42E524B64008862D7 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = DC70F2DC2E524B63008862D7;
+					};
+				};
+			};
+			buildConfigurationList = DC70F2D82E524B63008862D7 /* Build configuration list for PBXProject "TimerKVRM" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC70F2D42E524B63008862D7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DC70F2DE2E524B63008862D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC70F2DC2E524B63008862D7 /* TimerKVRM */,
+				DC70F2EA2E524B64008862D7 /* TimerKVRMTests */,
+				DC70F2F42E524B64008862D7 /* TimerKVRMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC70F2DB2E524B63008862D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC70F2E92E524B64008862D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC70F2F32E524B64008862D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC70F2D92E524B63008862D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC70F2E72E524B64008862D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC70F2F12E524B64008862D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC70F2ED2E524B64008862D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC70F2DC2E524B63008862D7 /* TimerKVRM */;
+			targetProxy = DC70F2EC2E524B64008862D7 /* PBXContainerItemProxy */;
+		};
+		DC70F2F72E524B64008862D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC70F2DC2E524B63008862D7 /* TimerKVRM */;
+			targetProxy = DC70F2F62E524B64008862D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC70F2FD2E524B64008862D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC70F2FE2E524B64008862D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DC70F3002E524B64008862D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimerKVRM/TimerKVRM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jymapas.TimerKVRM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DC70F3012E524B64008862D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimerKVRM/TimerKVRM.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jymapas.TimerKVRM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DC70F3032E524B64008862D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jymapas.TimerKVRMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimerKVRM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimerKVRM";
+			};
+			name = Debug;
+		};
+		DC70F3042E524B64008862D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jymapas.TimerKVRMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimerKVRM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimerKVRM";
+			};
+			name = Release;
+		};
+		DC70F3062E524B64008862D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jymapas.TimerKVRMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TimerKVRM;
+			};
+			name = Debug;
+		};
+		DC70F3072E524B64008862D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jymapas.TimerKVRMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TimerKVRM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC70F2D82E524B63008862D7 /* Build configuration list for PBXProject "TimerKVRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC70F2FD2E524B64008862D7 /* Debug */,
+				DC70F2FE2E524B64008862D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC70F2FF2E524B64008862D7 /* Build configuration list for PBXNativeTarget "TimerKVRM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC70F3002E524B64008862D7 /* Debug */,
+				DC70F3012E524B64008862D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC70F3022E524B64008862D7 /* Build configuration list for PBXNativeTarget "TimerKVRMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC70F3032E524B64008862D7 /* Debug */,
+				DC70F3042E524B64008862D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC70F3052E524B64008862D7 /* Build configuration list for PBXNativeTarget "TimerKVRMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC70F3062E524B64008862D7 /* Debug */,
+				DC70F3072E524B64008862D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC70F2D52E524B63008862D7 /* Project object */;
+}
