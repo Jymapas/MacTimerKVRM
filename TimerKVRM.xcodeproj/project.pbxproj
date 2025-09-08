@@ -35,16 +35,6 @@
 			path = TimerKVRM;
 			sourceTree = "<group>";
 		};
-		DC70F2EE2E524B64008862D7 /* TimerKVRMTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TimerKVRMTests;
-			sourceTree = "<group>";
-		};
-		DC70F2F82E524B64008862D7 /* TimerKVRMUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TimerKVRMUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				DC70F2DF2E524B63008862D7 /* TimerKVRM */,
-				DC70F2EE2E524B64008862D7 /* TimerKVRMTests */,
-				DC70F2F82E524B64008862D7 /* TimerKVRMUITests */,
 				DC70F2DE2E524B63008862D7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				DC70F2ED2E524B64008862D7 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				DC70F2EE2E524B64008862D7 /* TimerKVRMTests */,
-			);
 			name = TimerKVRMTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				DC70F2F72E524B64008862D7 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				DC70F2F82E524B64008862D7 /* TimerKVRMUITests */,
 			);
 			name = TimerKVRMUITests;
 			packageProductDependencies = (
