@@ -16,7 +16,6 @@ struct ContentView: View {
             }
             .frame(height: 200)
 
-            // 2x2 кнопки как UniformGrid
             Grid(horizontalSpacing: 8, verticalSpacing: 8) {
                 GridRow {
                     Button("Вопрос", action: vm.startQuestion)

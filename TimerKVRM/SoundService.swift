@@ -13,14 +13,12 @@ protocol SoundServiceProtocol {
 final class SoundService: SoundServiceProtocol {
     private var players: [AVAudioPlayer] = []
 
-    // Имена файлов — положите в Assets или просто в Bundle
-    // и замените расширения/имена под ваши ресурсы:
-    private let startName = "start"              // Resources.start
-    private let breakName = "bBreak"             // Resources.bBreak
-    private let tenName = "tenSeconds"           // Resources.tenSeconds
-    private let finalName = "finialCountdown"    // Resources.finialCountdown (орфография как в коде)
-    private let warningName = "finalWarning"     // Resources.finalWarning
-    private let ext = "wav"                      // или "mp3" — подставьте актуальное
+    private let startName = "start"
+    private let breakName = "break"
+    private let tenName = "tenSeconds"
+    private let finalName = "finialCountdown"
+    private let warningName = "finalWarning"
+    private let ext = "wav"
 
     private func play(_ name: String) {
         guard let url = Bundle.main.url(forResource: name, withExtension: ext) else { return }
@@ -30,7 +28,6 @@ final class SoundService: SoundServiceProtocol {
             p.play()
             players.append(p) // держим сильную ссылку, иначе звук может оборваться
         } catch {
-            // можно добавить простое логирование в консоль
         }
     }
 

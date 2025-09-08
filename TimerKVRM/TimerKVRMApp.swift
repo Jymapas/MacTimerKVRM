@@ -10,7 +10,6 @@ struct TimerKVRMApp: App {
                 .environmentObject(vm)
                 .frame(minWidth: 250, maxWidth: 250, minHeight: 350, maxHeight: 350)
                 .onAppear {
-                    // Сделать окно "всегда поверх"
                     WindowLevelAccessor.setAlwaysOnTop(.floating)
                 }
         }

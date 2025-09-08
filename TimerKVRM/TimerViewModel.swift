@@ -4,7 +4,6 @@ import Combine
 
 final class TimerViewModel: ObservableObject {
 
-    // Константы как в WPF
     private let questionTotal = 60
     private let dupletSeg = 30
     private let blitzSeg = 20
@@ -22,7 +21,7 @@ final class TimerViewModel: ObservableObject {
     private var waitingNextSegment = false
 
     @Published var timerText: String = "60"
-    @Published var timerColor: Color = .black
+    @Published var timerColor: Color = .white
 
     private(set) var totalRemaining = 60 {
         didSet { timerText = "\(totalRemaining)" }
@@ -32,8 +31,6 @@ final class TimerViewModel: ObservableObject {
         self.sound = sound
         resetToIdle()
     }
-
-    // MARK: — Public API (аналог команд)
 
     var isRunning: Bool { timer != nil }
 
@@ -61,7 +58,7 @@ final class TimerViewModel: ObservableObject {
         segmentsCount = 1
         segmentIndex = 0
         segmentRemaining = questionTotal
-        timerColor = .black
+        timerColor = .white
         startTimer()
     }
 
@@ -78,7 +75,7 @@ final class TimerViewModel: ObservableObject {
         }
         waitingNextSegment = false
         segmentRemaining = dupletSeg
-        timerColor = .black
+        timerColor = .white
         startTimer()
     }
 
@@ -95,7 +92,7 @@ final class TimerViewModel: ObservableObject {
         }
         waitingNextSegment = false
         segmentRemaining = blitzSeg
-        timerColor = .black
+        timerColor = .white
         startTimer()
     }
 
@@ -170,7 +167,7 @@ final class TimerViewModel: ObservableObject {
         segmentRemaining = 0
         segmentIndex = 0
         segmentsCount = 0
-        timerColor = .black
+        timerColor = .white
         timerText = "60"
     }
 }

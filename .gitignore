@@ -60,3 +60,8 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+/build
+TimerKVRM.xcodeproj/project.xcworkspace/xcuserdata/akorobkina.xcuserdatad/UserInterfaceState.xcuserstate
+.DS_Store
+TimerKVRM/.DS_Store
