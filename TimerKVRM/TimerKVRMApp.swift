@@ -14,5 +14,6 @@ struct TimerKVRMApp: App {
                     WindowLevelAccessor.setAlwaysOnTop(.floating)
                 }
         }
+        .defaultSize(width: 250, height: 350)
     }
 }
